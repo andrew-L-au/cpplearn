@@ -68,5 +68,11 @@ public:
 
 int main() {
     Draw<bool> draw;
-
+    draw.printResult();
+    //2. 绘制第⼀条线后printResult结果
+    draw.line(2, 0, 2, 19);
+    draw.printResult();
+    //3. 绘制第⼆条线后printResult结果
+    draw.line(0, 2, 19, 2);
+    draw.printResult();
 }
